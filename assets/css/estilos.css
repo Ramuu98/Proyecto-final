@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #b88538;
+}
+
+header {
+    background: #dfca6ce3;
+}
+
+footer {
+    background: #dfca6ce3;
+}
+
+.footer-text {
+    font-size: 18px;
+}
+
+.nav-linkss>ul>li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #000000;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-linkss>ul>li:hover::after {
+    width: 100%;
+}
+
+table {
+    background-color: #dfca6ce3 ;
+    margin-left: 15%;
+}
+
+@media (max-width: 700px) {
+    table {
+        margin-left: 0%;
+    }
+}
